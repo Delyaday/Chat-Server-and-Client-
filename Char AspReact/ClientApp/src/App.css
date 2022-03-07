@@ -1,0 +1,136 @@
+﻿
+
+Form Button {
+    width: 100%;
+}
+
+.myChat {
+    width: 290px;
+    display: flex;
+    margin-left: 320px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Century Gothic';
+}
+
+.myChat .myPic {
+    width: 70px;
+    height: 55px;
+}
+
+.myChat h2 {
+    width: 200px;
+    height: 55px;
+    color: indigo;
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.user-list h4 {
+    font-size: 43px;
+    color: black;
+}
+
+.user-list h6 {
+    font-size: 27px;
+}
+
+.sendBtn {
+    background-color: lavender;
+}
+
+.user-list {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: black;
+}
+
+h6 {
+    color: black;
+    font-size: 28px;
+}
+
+hr.line {
+    margin: 0 auto;
+    border: 1px solid #313131;
+    width: 200px;
+}
+
+input.form-control {
+    margin-top: 10px;
+}
+
+.app {
+    margin: auto;
+    padding-top: 40px;
+    width: 950px;
+    text-align: center;
+}
+
+.lobby {
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 270px;
+}
+
+.joinBtn {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+
+.chat {
+    display: grid;
+}
+
+.leave-room {
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.user-list {
+    float: left;
+    background-color: lavender;
+    color: white;
+    width: 200px;
+    height: 440px;
+    margin-right: 4px;
+}
+
+.message-container {
+    height: 400px;
+    background-color: white;
+    overflow: auto;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.user-message {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.message {
+    display: inline-flex;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 3px;
+    background-color: mediumpurple;
+}
+
+.from-user {
+    font-size: small;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
